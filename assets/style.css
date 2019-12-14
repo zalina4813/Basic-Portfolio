@@ -1,5 +1,5 @@
 body{ 
-    background-color: #ffffff;    
+    background-color: white;    
     margin: 32px;
     padding: 15px;
     font-family:'Arial','Helvetica Neue', Helvetica, sans-serif;
@@ -7,17 +7,33 @@ body{
     color: #777777;
     line-height: 150%;
 }
+nav {
+    float: right;
 
-h1 { color:#4aaaa5;
-background-color: whitesmoke;
+}
+
+.header { color:white;
+display: inline-block;
+background-color: #4aaaa5;
+width: 200px;
 margin: 0;
 text-align: left;
 padding-top: 20px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 padding-bottom: 20px;
 font-size: 28px;
-} 
-hr
+}
+ h2 { color: #4aaaa5;
+    background-color: white;
+    width: 200px;
+    margin: 0;
+    text-align: left;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    font-size: 28px;
+    }
+
 input[type=message], select {
     width: 100%;
 }
@@ -94,7 +110,6 @@ input[type=message], select {
     background: #4aaaa5;
     color   : #FFF;
     padding: 20px;
-    position: relative;
     top: -90px;
 
 }
@@ -115,10 +130,10 @@ input[type=message], select {
     margin-left: 30px;
 }
 
-div #hangman,
-div #rpg_game,
-div #trivia,
-div #rutgers,
+div #me,
+div #random,
+div #image
+div #photo,
 div #rps {
 
     height: 280px;
@@ -128,15 +143,7 @@ div #rps {
 
 footer {
 
-    text-align: center; 
-    flex-shrink: 0;
-    background: #666666;
-    color: #ffffff;
-    border-top: 5px solid #63A8A4;
-    padding: 20px;
-    height: 20px;
-    margin-top: 150px;
-    
+    border-top: 8px solid #4aaaa5;
 
 }
 
